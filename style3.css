@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-image: url(image1.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.nav{
+    text-decoration: none;
+    list-style: none;
+    margin-top: 15px;
+}
+.rightmenu li{
+    display: inline-block;
+    margin-top: 15px;
+}
+.rightmenu li a{
+    padding: 9px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: serif;
+    
+}
+.rightmenu li.active a{
+    border: 1px solid white;
+    background-color: black;
+    
+}
+.rightmenu li a:hover{
+    border: 1px solid blue;
+    background-color: cyan;
+}
+.middle p{
+    color: cyan;
+    text-align: center;
+    font-size: 40px;
+    font-style: oblique;
+    float: right;
+    margin-top: 275px;
+    margin-left: 70px;
+}
+h2{
+    font-size: 75px;
+    text-align: center;
+    color: green;
+}
+h3{
+    font-size: 60px;
+    text-align: center;
+    color: green;
+    margin-top: 2px;
+}
+h5{
+    font-size: 40px;
+    text-align: center;
+    color: green;
+    
+}
+.middle{
+            text-align: center;
+    
+}
+.end{
+    margin-top: 60px;
+}
+.Bio{
+    text-align: right;
+    font-size: 20px;
+    color: cyan;
+    font-style: oblique;
+}
